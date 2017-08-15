@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="570dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nästa"
+            android:id="@+id/button_view_next"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="187dp"
+            android:id="@+id/editText"
+            android:layout_gravity="center"
+            android:layout_weight="0.01"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Beskriv problemet"
+            android:id="@+id/is_header"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_weight="0.00" />
+    </FrameLayout>
+
+
+</LinearLayout>

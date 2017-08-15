@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- MAIN -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/Main"
+    android:backgroundTintMode="src_over"
+    android:background="#005389">
+
+    <!-- BANNER: Top Section -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingTop="5dp"
+            android:layout_weight="0.89"
+            android:background="#005389"
+            android:transitionGroup="false" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout4"
+                android:background="#005389"
+                android:weightSum="1" >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.15"
+                    android:weightSum="1" >
+
+                    <ImageButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/home_button"
+                        android:layout_weight="0.44"
+                        android:background="@drawable/home_icon"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp" />
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/uppsala_smartcity_small"
+                        android:background="#005389"
+                        android:id="@+id/imageView7"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_weight="0.12" />
+
+                    <ImageButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/help_button"
+                        android:layout_weight="0.44"
+                        android:background="@drawable/help"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView8"
+                    android:background="#F4DB60"
+                    android:layout_weight="0.85" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.11"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="#005389"
+                android:id="@+id/middleSection"
+                android:backgroundTintMode="src_over"
+                android:weightSum="1"
+                android:layout_weight="0.7">
+
+                <!-- Text Header: Report Issue -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Rapportera problem"
+                    android:id="@+id/headerText"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="7dp" />
+
+                <!-- BUTTON ICONS -->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.23"
+                    android:id="@+id/buttonIcons"
+                    android:paddingTop="5dp">
+
+                    <!-- Button 1: Camera -->
+                    <ImageButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cameraIcon"
+                        android:src="@drawable/camera"
+                        android:backgroundTintMode="src_over"
+                        android:background="@null"
+                        android:layout_weight="1"
+                        android:paddingTop="10dp" />
+
+                    <!-- Button 2: Map pin -->
+
+                    <!-- Button 3: Pen -->
+                    <ImageButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/penIcon"
+                        android:src="@drawable/desc"
+                        android:backgroundTintMode="src_over"
+                        android:background="@null"
+                        android:layout_weight="1"
+                        android:paddingTop="10dp" />
+
+                    <ImageButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/summaryIcon"
+                        android:src="@drawable/summary"
+                        android:backgroundTintMode="src_over"
+                        android:background="@null"
+                        android:layout_weight="1"
+                        android:paddingTop="10dp" />
+                </LinearLayout>
+
+                <!-- Button texts -->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/buttonTexts">
+
+                    <!-- Button text 1: Camera -->
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lägg till foto"
+                        android:id="@+id/textCamera"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"/>
+
+                    <!-- Button text 2: Map -->
+                    <TextView
+                        android:layout_width="114dp"
+                        android:layout_height="wrap_content"
+                        android:text="Beskrivning"
+                        android:id="@+id/textMap"
+                        android:textColor="#ffffff"
+                        android:gravity="center_horizontal"/>
+
+                    <!-- Button text 3: Pen -->
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Skicka rapport"
+                        android:id="@+id/textPen"
+                        android:textColor="#ffffff"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ffffff"
+                android:id="@+id/bottomSection"
+                android:layout_weight="0.3">
+
+                <ViewFlipper
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/flipper">
+                </ViewFlipper>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- MIDDLE SECTION -->
+
+</LinearLayout>
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/issue_report">
+
+    <!-- BANNER -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        /*android:layout_above="@+id/button_share"
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/headerBackground"
+            android:background="#005389"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:id="@+id/banner_footer"
+            android:background="#ffffff33"
+            android:layout_below="@+id/headerBackground"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo_neg"
+            android:id="@+id/bannerLogo"
+            android:layout_above="@+id/banner_footer" />
+
+
+        <Button
+            android:paddingTop="5dp"
+            android:id="@+id/button_view_next"
+            android:text="Nästa"
+            android:textColor="#FFFFFF"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttonshape"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:paddingTop="5dp"
+            android:id="@+id/button_take_photo"
+            android:text="Ta foto"
+            android:textColor="#FFFFFF"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttonshape"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/banner_footer"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="326dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="0.52"
+            android:layout_height="250dp"
+            android:id="@+id/imageViewPhoto"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@+id/button_from_archive"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/button_view_next"
+            android:layout_alignParentEnd="true" />
+        <Button
+            android:paddingTop="5dp"
+            android:id="@+id/button_from_archive"
+            android:text="Välj befintligt foto"
+            android:textColor="#FFFFFF"
+            android:layout_width="220dp"
+            android:layout_marginTop="104dp"
+            android:layout_height="60dp"
+            android:background="@drawable/buttonshape"
+            android:layout_below="@+id/banner_footer"
+            android:layout_alignStart="@+id/button_take_photo" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

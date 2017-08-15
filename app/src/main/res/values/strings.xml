@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">AppProject</string>
+
+    <string name="uploaded">Bilden är uppladdad!</string>
+    <string name="action_settings">Settings</string>
+    <string name="category_prompt">Choose your favorite category</string>
+
+    <string name="welcome">Hej och välkommen till Uppsala kommuns applikation för problemrapportering.\n\nUnder
+        knappen Visa Rapporterade Problem kan du se redan befintliga rapporter över problem som skickats in till kommunen.\n\nUnder
+        knappen Visa Mina Rapporter kan du se status på dina egna rapporter och även se direkt återkoppling från kommunen.\n\nUnder
+        Skapa Ny Rapport har du möjlighet att snabbt och smidigt skapa en nu rapport över ett problem.\n\nTack
+        för att du hjälper uppsala att bli en bättre och smartare stad!</string>
+
+    <string name="welcome_title">Välkommen!</string>
+    <string name="add_position">Du måste ange en position</string>
+    <string name="pos_title">Ingen position angiven</string>
+    <string name="btn_label">Uppfattat!</string>
+    <string name="network">Anslut till ett nätverk innan du fortsätter!</string>
+    <string name="network_title">Nätverksfel</string>
+    <string name="summary">Du måste ange både en beskrivning och en kategori</string>
+    <string name="summary_title">Ej fullständig rapport</string>
+    <string name="issues_near_wel">Närliggande rapporter</string>
+
+    <string name="issues_nearby">I denna vy kan du se inrapporterade problem nära dig.\n\n
+        Klicka på de blå markörerna för att se adress, kategori samt en beskrivning av rapporten.\n\n
+    Du kan fortsätta med din rapportering genom att klicka på FORTSÄTT MED RAPPORT eller återvända till hemskärmen genom att antingen klicka på AVBRYT eller på huset uppe till vänster.</string>
+
+    <string name="view_reports_help">Här visas alla rapporter i systemet.\n\nKlicka på en rapport för att se mer information om denna
+    \n\nAnvänd rullgardinen för att sortera efter kategori. </string>
+    <string name="help">Hjälp!</string>
+
+    <string name="my_reports_help">Här visas alla dina inrapporteringar.\n\nKommunens feedback på din inrapportering visas med
+        hjälp av en status samt eventuellt en kommentar</string>
+
+    <string name="map_location_help">För att vi ska veta vart problemet ligger ber vi dig lägga till en adress.\n\n
+        Detta kan du göra antigen genom att trycka på knappen "Använd Nuvarande Plats", peka på en plats eller skriva in en
+    adress i "Sök Adress".\n\nOm du har pekat på en plats på kartan och vill ändra denna kan du antigen trycka på en ny plats
+    på kartan eller dra knappnålen till en ny plats genom att trycka och hålla inne den nuvarande knappnålen.</string>
+
+    <string name="submit_report_help">De tre ikonerna, en kamera, en penna och ett block, fungerar som knappar där du kan fylla i
+    information om din inrapportering.\n\nUnder fliken "Lägg Till Foto" kan du antingen ta en nytt foto eller välja
+        ett foto från din fotoalbum.\n\nUnder fliken "Beskrivning" väljer du vilken kategori problemet har
+    och därefter kan du lägga till en beskrivning.\n\nUnder fliken "Skicka Rapport" ser du en sammanställning
+        av din inrapportering.</string>
+
+</resources>

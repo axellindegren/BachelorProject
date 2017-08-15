@@ -1,0 +1,654 @@
+Applications Graphics Acceleration Info:
+Uptime: 50933274 Realtime: 606143506
+
+** Graphics info for pid 571 [com.google.android.inputmethod.latin] **
+
+Recent DisplayList operations
+  Translate
+  DrawText
+  Translate
+  DrawPatch
+  Translate
+  DrawText
+  Translate
+  DrawPatch
+  Translate
+  DrawText
+  DrawText
+  Translate
+  DrawPatch
+  Translate
+  DrawText
+  Translate
+  DrawPatch
+  Translate
+  DrawText
+  DrawText
+  Translate
+  DrawPatch
+  Translate
+  DrawText
+  DrawText
+  Translate
+  DrawDisplayList
+    DrawDisplayList
+      DrawDisplayList
+        DrawDisplayList
+          DrawDisplayList
+            DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                DrawPatch
+                Save
+                ClipRect
+                DrawDisplayList
+                  DrawDisplayList
+                  DrawDisplayList
+                    DrawBitmapRect
+                  DrawDisplayList
+                  DrawDisplayList
+                    DrawBitmapRect
+                  DrawDisplayList
+                RestoreToCount
+            DrawDisplayList
+              DrawLayer
+      DrawDisplayList
+        DrawLayer
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache            83312 / 25165824
+  LayerCache                  0 / 16777216
+  GradientCache               0 /   524288
+  PathCache                   0 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache              0 /  1048576
+  RoundRectShapeCache         0 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  FontRenderer 0         262144 /   262144
+Other:
+  FboCache                    2 /       16
+  PatchCache                 10 /      512
+Total memory usage:
+  345456 bytes, 0.33 MB
+
+Profile data in ms:
+
+	InputMethod/android.view.ViewRootImpl@419edd18
+View hierarchy:
+
+  InputMethod/android.view.ViewRootImpl@419edd18
+  25 views, 0,96 kB of display lists, 4604 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        25
+Total DisplayList:  0,96 kB
+
+
+** Graphics info for pid 759 [com.google.android.gms.persistent] **
+
+** Graphics info for pid 482 [com.android.systemui] **
+
+Recent DisplayList operations
+    DrawDisplayList
+      Save
+      ClipRect
+      DrawDisplayList
+      DrawDisplayList
+        DrawDisplayList
+        DrawDisplayList
+          Save
+          ClipRect
+          DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                DrawBitmapRect
+              DrawDisplayList
+                DrawBitmapRect
+            DrawDisplayList
+              DrawDisplayList
+                DrawDisplayList
+                  DrawBitmapRect
+          DrawDisplayList
+          RestoreToCount
+        DrawDisplayList
+      RestoreToCount
+  DrawDisplayList
+  DrawDisplayList
+    DrawRect
+    DrawDisplayList
+      Save
+      ClipRect
+      DrawDisplayList
+      DrawDisplayList
+        DrawDisplayList
+        DrawDisplayList
+          Save
+          ClipRect
+          DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                DrawBitmapRect
+              DrawDisplayList
+                DrawBitmapRect
+            DrawDisplayList
+              DrawDisplayList
+                DrawDisplayList
+                  DrawBitmapRect
+          DrawDisplayList
+          RestoreToCount
+        DrawDisplayList
+      RestoreToCount
+  DrawDisplayList
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          1007888 / 25165824
+  LayerCache             770048 / 16777216
+  GradientCache               0 /   524288
+  PathCache                   0 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache              0 /  1048576
+  RoundRectShapeCache         0 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  FontRenderer 0         262144 /   262144
+Other:
+  FboCache                    1 /       16
+  PatchCache                 19 /      512
+Total memory usage:
+  2040080 bytes, 1.95 MB
+
+Profile data in ms:
+
+	StatusBar/android.view.ViewRootImpl@41b55128
+	NavigationBar/android.view.ViewRootImpl@41bb3360
+	SearchPanel/android.view.ViewRootImpl@42ab6b40
+View hierarchy:
+
+  StatusBar/android.view.ViewRootImpl@41b55128
+  219 views, 3,45 kB of display lists, 9018 frames rendered
+
+  NavigationBar/android.view.ViewRootImpl@41bb3360
+  36 views, 1,34 kB of display lists, 6363 frames rendered
+
+  SearchPanel/android.view.ViewRootImpl@42ab6b40
+  4 views, 0,00 kB of display lists, 0 frames rendered
+
+
+Total ViewRootImpl: 3
+Total Views:        259
+Total DisplayList:  4,79 kB
+
+
+** Graphics info for pid 714 [com.android.location.fused] **
+
+** Graphics info for pid 11252 [com.google.android.keep] **
+
+** Graphics info for pid 6967 [com.google.android.gallery3d] **
+
+Recent DisplayList operations
+                  Translate
+                  Rotate
+                  Translate
+                  DrawBitmapRect
+                  RestoreToCount
+              DrawDisplayList
+        DrawDisplayList
+          DrawDisplayList
+          DrawDisplayList
+            DrawBitmapRect
+        Save
+        DrawDisplayList
+        RestoreToCount
+  DrawRect
+  DrawDisplayList
+    DrawDisplayList
+      DrawDisplayList
+        DrawDisplayList
+          DrawColor
+        DrawDisplayList
+          DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                DrawDisplayList
+                DrawDisplayList
+                  DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                DrawPatch
+              DrawDisplayList
+                DrawDisplayList
+                  DrawBitmapRect
+                DrawDisplayList
+                  DrawBitmapRect
+                DrawDisplayList
+                  DrawBitmapRect
+                DrawDisplayList
+                  DrawBitmapRect
+              DrawDisplayList
+                DrawDisplayList
+                  Translate
+                  Rotate
+                  Translate
+                  DrawBitmapRect
+                  RestoreToCount
+              DrawDisplayList
+        DrawDisplayList
+          DrawDisplayList
+          DrawDisplayList
+            DrawBitmapRect
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache           297984 / 25165824
+  LayerCache                  0 / 16777216
+  GradientCache               0 /   524288
+  PathCache                   0 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache              0 /  1048576
+  RoundRectShapeCache         0 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  FontRenderer 0              0 /        0
+Other:
+  FboCache                    0 /       16
+  PatchCache                  2 /      512
+Total memory usage:
+  297984 bytes, 0.28 MB
+
+Profile data in ms:
+
+View hierarchy:
+
+
+Total ViewRootImpl: 0
+Total Views:        0
+Total DisplayList:  0,00 kB
+
+
+** Graphics info for pid 678 [com.google.process.gapps] **
+
+** Graphics info for pid 21323 [com.google.process.location] **
+
+** Graphics info for pid 390 [system] **
+
+Recent DisplayList operations
+            ClipRect
+            DrawDisplayList
+            RestoreToCount
+            DrawRect
+            RestoreToCount
+          RestoreToCount
+      DrawDisplayList
+        DrawDisplayList
+          DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                Translate
+                Save
+                ClipRect
+                DrawText
+                RestoreToCount
+              DrawDisplayList
+                DrawPatch
+              DrawDisplayList
+                Save
+                Translate
+                Scale
+                Translate
+                RestoreToCount
+                Save
+                Translate
+                Scale
+                Translate
+                DrawOval
+                DrawOval
+                RestoreToCount
+                Save
+                Translate
+                Scale
+                Translate
+                DrawBitmapRect
+                RestoreToCount
+                Save
+                Translate
+                Scale
+                Translate
+                DrawBitmapRect
+                RestoreToCount
+              DrawDisplayList
+                DrawDisplayList
+                  Save
+                  ClipRect
+                  DrawText
+                  RestoreToCount
+  RestoreToCount
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache          7400768 / 25165824
+  LayerCache                  0 / 16777216
+  GradientCache               0 /   524288
+  PathCache                   0 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache              0 /  1048576
+  RoundRectShapeCache         0 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  FontRenderer 0         786432 /   786432
+Other:
+  FboCache                    0 /       16
+  PatchCache                  2 /      512
+Total memory usage:
+  8187200 bytes, 7.81 MB
+
+Profile data in ms:
+
+	Keyguard/android.view.ViewRootImpl@41e1f010
+View hierarchy:
+
+  Keyguard/android.view.ViewRootImpl@41e1f010
+  1 views, 0,05 kB of display lists, 2379 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        1
+Total DisplayList:  0,05 kB
+
+
+** Graphics info for pid 4750 [com.sand.airdroid] **
+
+** Graphics info for pid 3784 [com.sand.airdroid:push] **
+
+** Graphics info for pid 9565 [com.google.android.deskclock] **
+
+** Graphics info for pid 880 [com.google.android.gms] **
+
+** Graphics info for pid 9477 [com.google.android.gsf.login] **
+
+** Graphics info for pid 10254 [com.android.vending] **
+
+** Graphics info for pid 10539 [android.process.acore] **
+
+** Graphics info for pid 11212 [com.whatsapp] **
+
+** Graphics info for pid 1824 [android.process.media] **
+
+** Graphics info for pid 592 [com.android.phone] **
+
+** Graphics info for pid 10836 [com.instagram.android] **
+
+** Graphics info for pid 8950 [com.twitter.android] **
+
+** Graphics info for pid 11021 [com.google.android.apps.magazines] **
+
+** Graphics info for pid 9100 [com.android.chrome:sandboxed_process0] **
+
+** Graphics info for pid 9129 [com.android.chrome:privileged_process0] **
+
+** Graphics info for pid 9081 [com.android.chrome] **
+
+Recent DisplayList operations
+              DrawDisplayList
+                DrawColor
+              DrawDisplayList
+                DrawDisplayList
+          DrawDisplayList
+            DrawDisplayList
+              DrawDisplayList
+                DrawRect
+                DrawRect
+                Save
+                DrawPatch
+                ClipRect
+                DrawDisplayList
+                  Save
+                  ClipRect
+                  DrawDisplayList
+                    DrawDisplayList
+                      Save
+                      ClipRect
+                      Translate
+                      DrawDisplayList
+                        DrawText
+                      RestoreToCount
+                  RestoreToCount
+                RestoreToCount
+                Save
+                DrawDisplayList
+                  DrawDisplayList
+                    Save
+                    ConcatMatrix
+                    SetupColorFilter
+                    DrawBitmapRect
+                    ResetColorFilter
+                    DrawText
+                    RestoreToCount
+                  DrawDisplayList
+                    Save
+                    ConcatMatrix
+                    SetupColorFilter
+                    DrawBitmapRect
+                    ResetColorFilter
+                    RestoreToCount
+                RestoreToCount
+              DrawDisplayList
+            DrawDisplayList
+              Save
+              DrawPatch
+              DrawPatch
+              RestoreToCount
+    RestoreToCount
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache                0 / 25165824
+  LayerCache                  0 / 16777216
+  GradientCache               0 /   524288
+  PathCache                   0 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache              0 /  1048576
+  RoundRectShapeCache         0 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  FontRenderer 0              0 /        0
+Other:
+  FboCache                    1 /       16
+  PatchCache                  0 /      512
+Total memory usage:
+  0 bytes, 0.00 MB
+
+Profile data in ms:
+
+	com.android.chrome/com.google.android.apps.chrome.ChromeTabbedActivity/android.view.ViewRootImpl@41a731b8
+View hierarchy:
+
+  com.android.chrome/com.google.android.apps.chrome.ChromeTabbedActivity/android.view.ViewRootImpl@41a731b8
+  66 views, 4,32 kB of display lists, 987 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        66
+Total DisplayList:  4,32 kB
+
+
+** Graphics info for pid 10985 [com.google.android.apps.uploader] **
+
+** Graphics info for pid 10325 [com.google.android.music:main] **
+
+** Graphics info for pid 10941 [com.example.axel.appproject] **
+
+Recent DisplayList operations
+  DrawRect
+  DrawDisplayList
+    Save
+    ClipRect
+    DrawDisplayList
+      DrawDisplayList
+        DrawDisplayList
+          DrawDisplayList
+            DrawBitmapRect
+            DrawDisplayList
+              DrawDisplayList
+                DrawRect
+              DrawDisplayList
+                DrawRect
+              DrawDisplayList
+                Save
+                ConcatMatrix
+                DrawBitmapRect
+                RestoreToCount
+            DrawDisplayList
+              DrawRoundRect
+              DrawRoundRect
+              Save
+              ClipRect
+              Translate
+              DrawText
+              RestoreToCount
+            DrawDisplayList
+              DrawRoundRect
+              DrawRoundRect
+              Save
+              ClipRect
+              Translate
+              DrawText
+              RestoreToCount
+          DrawPatch
+    RestoreToCount
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache         13775744 / 25165824
+  LayerCache                  0 / 16777216
+  GradientCache               0 /   524288
+  PathCache                   0 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache              0 /  1048576
+  RoundRectShapeCache         0 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache         0 /  2097152
+  FontRenderer 0         262144 /   262144
+Other:
+  FboCache                    0 /       16
+  PatchCache                  1 /      512
+Total memory usage:
+  14037888 bytes, 13.39 MB
+
+Profile data in ms:
+
+	com.example.axel.appproject/com.example.axel.appproject.MainActivity/android.view.ViewRootImpl@419ca570
+View hierarchy:
+
+  com.example.axel.appproject/com.example.axel.appproject.MainActivity/android.view.ViewRootImpl@419ca570
+  14 views, 1,01 kB of display lists, 1 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        14
+Total DisplayList:  1,01 kB
+
+
+** Graphics info for pid 618 [com.anddoes.launcher] **
+
+Recent DisplayList operations
+                  ClipRect
+                  Translate
+                  RestoreToCount
+                DrawDisplayList
+                  Translate
+                  Save
+                  Translate
+                  DrawBitmapRect
+                  RestoreToCount
+                  Save
+                  ClipRect
+                  Translate
+                  DrawText
+                  RestoreToCount
+                DrawDisplayList
+                  DrawDisplayList
+                    Save
+                    ConcatMatrix
+                    DrawBitmapRect
+                    RestoreToCount
+                  Save
+                  Translate
+                  Scale
+                  SetupColorFilter
+                  DrawBitmapRect
+                  ResetColorFilter
+                  RestoreToCount
+                  Save
+                  Translate
+                  Scale
+                  SetupColorFilter
+                  DrawBitmapRect
+                  ResetColorFilter
+                  RestoreToCount
+                  Save
+                  Translate
+                  Scale
+                  SetupColorFilter
+                  DrawBitmapRect
+                  ResetColorFilter
+                  RestoreToCount
+            RestoreToCount
+          DrawDisplayList
+            Save
+            ClipRect
+            DrawDisplayList
+            RestoreToCount
+          DrawDisplayList
+            DrawDisplayList
+          RestoreToCount
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache           922448 / 25165824
+  LayerCache                  0 / 16777216
+  GradientCache               0 /   524288
+  PathCache                   0 /  4194304
+  CircleShapeCache            0 /  1048576
+  OvalShapeCache              0 /  1048576
+  RoundRectShapeCache         0 /  1048576
+  RectShapeCache              0 /  1048576
+  ArcShapeCache               0 /  1048576
+  TextDropShadowCache     25044 /  2097152
+  FontRenderer 0         262144 /   262144
+Other:
+  FboCache                    3 /       16
+  PatchCache                  7 /      512
+Total memory usage:
+  1209636 bytes, 1.15 MB
+
+Profile data in ms:
+
+	com.anddoes.launcher/com.anddoes.launcher.Launcher/android.view.ViewRootImpl@41c21f00
+View hierarchy:
+
+  com.anddoes.launcher/com.anddoes.launcher.Launcher/android.view.ViewRootImpl@41c21f00
+  190 views, 7,02 kB of display lists, 2936 frames rendered
+
+
+Total ViewRootImpl: 1
+Total Views:        190
+Total DisplayList:  7,02 kB
+
+
+** Graphics info for pid 10641 [com.android.musicfx] **
+
+** Graphics info for pid 10745 [com.google.android.partnersetup] **
+
+** Graphics info for pid 10628 [com.android.keychain] **
+
+** Graphics info for pid 602 [com.android.nfc] **

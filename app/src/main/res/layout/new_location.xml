@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.89" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/linearLayout2"
+                android:background="#005389"
+                android:paddingTop="5dp"
+                android:weightSum="1" >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.15"
+                    android:weightSum="1" >
+
+                    <ImageButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/home_button"
+                        android:layout_weight="0.44"
+                        android:background="@drawable/home_icon"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp" />
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/uppsala_smartcity_small"
+                        android:background="#005389"
+                        android:id="@+id/imageView3"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_weight="0.12" />
+
+                    <ImageButton
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/help_button"
+                        android:layout_weight="0.44"
+                        android:background="@drawable/help"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView4"
+                    android:background="#F4DB60"
+                    android:layout_weight="0.85" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.11"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.38"
+                android:weightSum="1">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="använd nuvarande plats"
+                    android:textColor="#005389"
+                    android:background="@drawable/buttonshape"
+                    android:id="@+id/button_current_location"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_above="@+id/button_view_next"
+                    android:layout_weight="0.3"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Eller peka på en plats!"
+                    android:id="@+id/textView"
+                    android:layout_weight="0.37"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:inputType="textPostalAddress"
+                    android:ems="10"
+                    android:id="@+id/search_field"
+                    android:layout_weight="0.33"
+                    android:hint="Eller Sök Adress..." />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17">
+
+                <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:name="com.google.android.gms.maps.MapFragment"
+                    android:layout_below="@+id/textLocation"
+                    android:layout_alignParentStart="true"
+                    android:layout_above="@+id/button_current_location" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.45"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Nästa"
+                    android:textColor="#005389"
+                    android:background="@drawable/buttonshape"
+                    android:id="@+id/button_view_next"
+                    android:layout_alignParentBottom="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

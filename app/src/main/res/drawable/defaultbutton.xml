@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+    <corners
+        android:radius="20dp"
+        />
+    <!-- Only one color of buttons
+    <solid
+        android:color="#d2edf9"
+        /> -->
+    <!-- Shades the color of the buttons -->
+    <gradient
+        android:startColor="#cae9f7"
+        android:centerColor="#ffffff"
+        android:endColor="#cae9f7"
+        android:angle="90"/>
+    <!-- Think we can delete this completely
+    <size
+        android:width="270dp"
+        android:height="60dp"
+        /> -->
+    <!-- Makes a line around the button
+    <stroke
+        android:width="3dp"
+        android:color="#005389"/> -->
+</shape>

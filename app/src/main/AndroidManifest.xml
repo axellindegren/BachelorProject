@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.axel.appproject" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.example.aa_lbs.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+
+            android:value="AIzaSyB1ZRUKuId46i5qztmfjSc-Cpsk12TRV08" />
+        
+	    //Viktor: AIzaSyCugQ6d4IfQuI2HWIj5-UxbmHhQslc07SE
+        //Axel: AIzaSyAdTmI9S9JFz0Yu1nrE5URnR64jfXevRP4
+        //Jacob: AIzaSyDPSzpDH7FxQTd1lm8zJ-dj-N-7sg7fFdI
+        //Johan: AIzaSyB1ZRUKuId46i5qztmfjSc-Cpsk12TRV08
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".IssueReportCamera"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.axel.appproject.IssueReportCamera" />
+
+               <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ViewReports"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.axel.appproject.ViewReports" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".IssueReportMapLocation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.axel.appproject.IssueReportMapLocation" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+         </activity>
+
+        <activity
+            android:name=".IssueReportDescription"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.example.axel.appproject.IssueReportDescription" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".NewSubmitReport"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.axel.appproject.NewSubmitReport" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MyReports"
+            android:label="AppProject"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.axel.appproject.MyReports"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".IssuesNearby"
+            android:label="AppProject"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.example.axel.appproject.MyReports"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

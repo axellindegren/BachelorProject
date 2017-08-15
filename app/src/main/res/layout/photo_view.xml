@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/photoView">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Ta Foto"
+            android:id="@+id/btn_photo"
+            android:background="@drawable/buttonshape"
+            android:textColor="#005389"
+            android:layout_gravity="top"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Välj från album"
+            android:id="@+id/btn_archive"
+            android:background="@drawable/buttonshape"
+            android:textColor="#005389"
+            android:layout_marginTop="10dp"
+            android:elegantTextHeight="false"
+            android:layout_marginLeft="20dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/image_preview"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+</LinearLayout>
